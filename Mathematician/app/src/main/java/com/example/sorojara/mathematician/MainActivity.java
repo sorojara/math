@@ -3,7 +3,7 @@ package com.example.sorojara.mathematician;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
-import com.example.sorojara.mathematician.org.mariuszgromada.math.mxparser.*;
+
 
 public class MainActivity extends AppCompatActivity {
 

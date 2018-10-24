@@ -1,3 +1,3 @@
 Mathematician --> app principal (inactiva)
 
-Pruebas_proyecto --> pruebas de generacion de layouts
+Pruebas_bloques --> pruebas de generacion de layouts

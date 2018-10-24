@@ -1,5 +1,7 @@
 package com.example.sorojara.mathematician;
 import java.util.*;
+import android.widget.EditText;
+import android.widget.TextView;
 
 
 public class Mathematik {
@@ -9,6 +11,9 @@ public class Mathematik {
     boolean sub;//control para hojas
     public String structure;// estructura del bloque
     int counter; //contador de bloques
+    public TextView txt;
+
+
     /*
      * EJEMPLO DE ESTRUCTURA
      * structure:
@@ -23,6 +28,17 @@ public class Mathematik {
         counter = 0;
         //bloques = new Mathematik[0];
         bloques = lista.toArray(new Mathematik[lista.size()]);
+    }
+
+    public Mathematik(android.content.Context cont) {
+        lista = new ArrayList<Mathematik>();
+        text="";
+        sub=false;
+        structure = "";
+        counter = 0;
+        //bloques = new Mathematik[0];
+        bloques = lista.toArray(new Mathematik[lista.size()]);
+        txt = new TextView(cont);
     }
 
     public Mathematik(String t, boolean b, String st, int c) {
